@@ -49,12 +49,5 @@ def highest_affinity(site_list, user_list, time_list):
         q = 0
         r = 0
         s = 0
-        t = 0
-        u = 0
-        v = 0
-        w = 0
-        x = 0
-        y = 0
-        z = 0
 
     return max(affinities, key=affinities.get)
